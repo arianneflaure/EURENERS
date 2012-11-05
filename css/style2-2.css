@@ -1,0 +1,135 @@
+#domains{
+    width: 950px;
+	margin: 0 0 0 26px;
+}
+#domain{
+	float: left;
+}
+#domain.accordion{
+    width: 535px;
+	height: 275px;
+	padding: 10px;
+	background: url(../images/domainFond.png) no-repeat;
+	margin-left: 20px;
+}
+#accordion{
+    width: 400px;
+    font-size: 18px;
+	color:#333;
+	font-family: Amaranth;
+    border: 0;
+    background: none;
+	line-height: 18px;
+}
+#accordion div{
+    border: 0;
+    background: none;
+	width: 390px;
+	height : 135px;
+	margin-top : -5px;
+	overflow : hidden;
+}
+#accordion h3{
+    border: 0;
+    background: none;
+}
+#accordion a, a:hover, a:visited, a:focus{
+    font-size: 18px;
+	line-height: 18px;
+}
+#accordion li{
+    border-bottom: 1px solid #aaa;
+	width: 300px;
+}
+#accordion li.selectedDomain{
+    background-color : #D3F1FE;
+	color : #2669AC
+}
+#accordion li.firstDomain{
+    border-top: 1px solid #aaa;
+}
+#accordion li button{
+    line-height: 30px;
+	background: none;
+	cursor: pointer;
+	clear: both;
+	padding: 0 5px 0 5px;
+	text-align: left;
+	width: 300px;
+	font-family: Amaranth;
+}
+.www{
+    color:#999;
+}
+#accordion li button:hover, #accordion li.selectedDomain button{
+	background: #d3f1fe;
+	color:#2669ac;
+}
+#accordion input[type="text"]{
+    width: 210px;
+	height: 20px;
+	padding: 5px;
+	line-height: 30px;	
+	background: url(../images/inputDomain.png) no-repeat;
+}
+#accordion input[type="submit"]{
+    width: 107px;
+	height: 30px;
+	cursor: pointer;
+	background: url(../images/domainButton.png) no-repeat;
+	line-height: 30px;
+	color: #fff;
+	font-family: Amaranth;
+}
+#domain.domain{
+    width: 325px;
+}
+#achatDomaine{
+    width: 325px;
+	height: 75px;
+	padding: 10px;
+	color: #666666;
+	font-size: 12px;
+	background: url(../images/achatDomainFond.png) no-repeat;
+	text-align : left;
+}
+.bigger{
+	font-size: 14px;
+	color: #333;
+	line-height: 20px;
+}
+#besoinAide{
+    width: 325px;
+	height: 175px;
+	padding: 10px 10px 10px 20px;
+	background: url(../images/fondAide.png) no-repeat;
+	margin-top: 15px;
+	color: #333;
+	font-size: 14px;
+	
+}
+#besoinAide ul{
+    list-style-type: disc;
+	margin-left : 20px;
+}
+#besoinAide ul li{
+    list-style-type: disc;
+	margin-top: 20px;
+	line-height: 14px;
+
+}
+#besoinAide ul li a, a:hover a:focus, a:visited{
+    text-decoration: underline;
+	line-height: 14px;
+	font-size: 14px;
+    color: #333;
+}
+.aide{
+    color:#006699;
+	font-size: 18px;	
+}
+
+#accordion .checkDomain {
+	font-size : 15px;
+	padding-top : 5px;
+}

@@ -1,0 +1,74 @@
+#colors{
+    width: 950px;
+	margin: 0 0 0 26px;
+}
+#color{
+    width: 275px;
+	padding: 10px;
+	float: left;
+	margin-bottom: 10px;
+    font-size: 20px;
+	height: 85px;
+    color: #333;
+    font-size: 18px;
+    line-height: 70px;
+    text-align: center;	
+    cursor: pointer;
+}
+.noPreference{
+    background: url(../images/noPreference.png) no-repeat;
+}
+.blue{
+    background: url(../images/blue.png) no-repeat;
+    margin: 0 10px 0 10px;
+}
+.red{
+    background: url(../images/red.png) no-repeat;
+}
+.orange{
+    background: url(../images/orange.png) no-repeat;
+}
+.yellow{
+    background: url(../images/yellow.png) no-repeat;
+    margin: 0 10px 0 10px;
+}
+.green{
+    background: url(../images/green.png) no-repeat;
+}
+.black{
+    background: url(../images/black.png) no-repeat;
+}
+.grey{
+    background: url(../images/grey.png) no-repeat;
+    margin: 0 10px 0 10px;
+}
+.purple{
+    background: url(../images/purple.png) no-repeat;
+}
+.selectedActivity2.purple{
+    background: url(../images/purpleHover.png) no-repeat;
+}
+.selectedActivity2.grey{
+    background: url(../images/greyHover.png) no-repeat;
+}
+.selectedActivity2.black{
+    background: url(../images/blackHover.png) no-repeat;
+}
+.selectedActivity2.green{
+    background: url(../images/greenHover.png) no-repeat;
+}
+.selectedActivity2.yellow{
+    background: url(../images/yellowHover.png) no-repeat;
+}
+.selectedActivity2.orange{
+    background: url(../images/orangeHover.png) no-repeat;
+}
+.selectedActivity2.red{
+    background: url(../images/redHover.png) no-repeat;
+}
+.selectedActivity2.blue{
+    background: url(../images/blueHover.png) no-repeat;
+}
+.selectedActivity2.noPreference{
+    background: url(../images/noPreferenceHover.png) no-repeat;
+}

@@ -1,0 +1,84 @@
+installation .sfinput.input.small {
+	margin-right : 10px;
+	margin-left : 20px;
+}
+.installation .finput.input.medium {
+  
+	 margin-left : 15px;
+}
+
+fieldset.type {
+	float: left;
+    width: 100px;
+
+}
+fieldset.men {
+    border-width: 0;
+    float: left;
+    margin-top: 8px;
+    padding-top: 8px;
+    width: 83%;
+}
+
+.men .finput, .men .sfinput {
+	float : left;
+	margin-right : 15px;
+	margin-bottom : 10px;
+}
+
+.machines .sfinput input.small {
+    background: url("../gfx/forms/forms-input-vvsmall.gif") no-repeat scroll left top transparent;
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+}
+
+.formulaire .sfinput span ,.formulaire .finput span:not(.ui-selectmenu-status){
+	float: left;
+    line-height: 25px;
+    margin-right: 5px;
+	color: #002E68;
+cursor: text;
+font-size: 12px;
+
+}
+  
+        .onglet
+        {
+                display:inline-block;
+                margin-left:3px;
+                margin-right:3px;
+                padding:3px;
+                border:1px solid gray;
+                cursor:pointer;
+        }
+        .onglet_0
+        {
+                border-bottom:1px solid gray;
+        }
+        .onglet_1
+        {
+                
+                border-bottom:0px solid gray;
+                padding-bottom:4px;
+        }
+        .contenu_onglet
+        {
+                height:220px;
+                border:1px solid gray;
+                margin-top:-1px;
+                padding:5px;
+                display:none;
+        }
+        ul
+        {
+                margin-top:0px;
+                margin-bottom:0px;
+                margin-left:-10px
+        }
+        h1
+        {
+                margin:0px;
+                padding:0px;
+        }
+     

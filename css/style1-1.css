@@ -1,0 +1,119 @@
+#descSteps{
+    width: 950px;
+	margin: 0 0 0 22px;
+}
+#descStep{
+    width: 435px;
+	padding: 10px;
+	float: left;
+	margin-bottom: 20px;
+    font-size: 20px;
+	height: 120px;	
+}
+.nameCompany{
+    background: url(../images/companyName.png) no-repeat;
+}
+.describe{
+    background: url(../images/describe.png) no-repeat;
+	margin-left: 10px;
+}
+.haveLogo{
+    background: url(../images/haveLogo.png) no-repeat;
+}
+.haveLogo .little{
+	font-size: 14px;
+}
+.haveLogo .big{
+    font-size: 18px;
+}
+.blocTextLogo1{
+    width: 100%;
+	float : left;
+}
+.blocTextLogo2{
+    /* width: 100%; */
+	margin:50px 0 0 100px;
+}
+
+.strengths{
+    background: url(../images/strenght.png) no-repeat;
+	margin-left: 10px;
+}
+#descSteps input#companyName{
+    width: 341px;
+	padding: 5px;
+	margin-top: 10px;
+	background: #eeeeee; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#ddd, #fff);
+	background: -o-linear-gradient(#ddd, #fff);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#fff)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#ddd, #fff);
+	border: 1px solid #bbb;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;	
+    border-radius: 3px;		
+}
+#descSteps input#companyName.error {
+	border-color : red;
+}
+#descSteps input#haveLogo{
+    width: 209px;
+	padding: 5px;
+	margin-top: 15px;
+	background: #eeeeee; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#ddd, #fff);
+	background: -o-linear-gradient(#ddd, #fff);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#fff)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#ddd, #fff);
+	border: 1px solid #bbb;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;	
+    border-radius: 3px;		
+}
+#descSteps ol{
+    margin-left: 40px;		
+}
+#descSteps input#firstStrength, #secondStrength, #thirdStrength{
+    width: 250px;
+	padding: 5px;
+	height: 14px;
+	background: #eeeeee; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#ddd, #ffffff);
+	background: -o-linear-gradient(#ddd, #ffffff);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#ffffff)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#ddd, #ffffff);
+	border: 1px solid #bbb;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;	
+    border-radius: 3px;		
+}
+#descSteps input#firstStrength, #secondStrength, #thirdStrength{
+    margin-top: 10px;
+}
+#descSteps input#firstStrength.error, #secondStrength.error, #thirdStrength.error  {
+	border-color : red;
+}
+#descSteps input#secondStrength, #thirdStrength{
+    margin-top: 5px;
+}
+#descSteps textarea{
+	padding: 5px;
+	margin-top: 10px;
+	background: #eeeeee; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#ddd, #ffffff);
+	background: -o-linear-gradient(#ddd, #ffffff);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#ffffff)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#ddd, #ffffff);
+	border: 1px solid #bbb;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;	
+    border-radius: 3px;		
+}
+
+#descSteps textarea#describeCompany.error {
+	border-color : red;		
+}
+
+.companyMargin{
+    margin-top: 25px;
+}

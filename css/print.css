@@ -1,0 +1,35 @@
+.pdfprint {
+	float : right;
+	margin-top : -45px;
+}
+
+.pdfprintall {
+	float : right;
+	margin-right : 200px;
+}
+
+#produit th {
+	padding: 0 0.5em;
+	text-align: left;
+	}
+
+#produit tr.yellow td {
+	border-top: 1px solid #FB7A31;
+	border-bottom: 1px solid #FB7A31;
+	background: #FFC;
+	}
+
+#produit td {
+	/* border-bottom: 1px solid #CCC; */
+	padding: 1px 0.5em;
+	text-align : right;
+}
+
+#produit td:first-child {
+	width: 100px;
+	}
+
+#produit td+td {
+	border-left: 1px solid #CCC;
+	text-align: center;
+	}

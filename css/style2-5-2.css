@@ -1,0 +1,201 @@
+#home{
+    width: 880px;
+	height: 362px;
+	padding: 20px;
+	margin: auto;
+    background: url(../images/fond2Text2-5-2.png) no-repeat;
+}
+
+form div.selectBox{
+    position:relative;
+    margin: 15px 0 10px 165px; 
+} 
+
+select.select{
+	position:relative;
+	z-index:10;
+	width:242px;
+	height:28px;
+	line-height:26px;
+}
+span.select{
+	position:absolute;
+	bottom:0;
+	float:left;
+	left:0;
+	width:242px;
+	height:28px;
+	line-height:26px;
+	text-indent:10px;
+	background:url(../images/selectCustom.png) no-repeat 0 0;
+	cursor:default;
+	z-index:1;
+	}
+#home label{
+    float: left;
+	display: block;
+	font-size: 18px;
+	color: #999;
+	left: 0;
+	margin: 10px 0 10px 0;
+}
+#home input.titleOfPage{
+    width: 490px;
+	height: 20px;
+	padding: 5px 10px 5px 10px;
+	margin: 5px 0 10px 25px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid #ddd;
+	background: #fdfdfd; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#f5f5f5, #fff);
+	background: -o-linear-gradient(#f5f5f5, #fff);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f5f5f5), to(#fff)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#f5f5f5, #fff);
+}
+#home textarea{
+	padding: 10px;
+	margin: 5px 0 10px 25px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid #ddd;
+	background: #fdfdfd; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#f5f5f5, #fff);
+	background: -o-linear-gradient(#f5f5f5, #fff);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f5f5f5), to(#fff)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#f5f5f5, #fff);
+}	
+#home .fileBox{
+	background: url(../images/browsenput.png) no-repeat;
+    width: 325px;
+	height: 30px;
+	margin: 8px 0 0 165px;
+	position: relative;
+}
+#home input.file{
+    width: 325px;
+	height: 25px;
+    position: absolute;
+	margin: 0;
+	opacity: 0;
+}
+.blueText{
+    color: #4388a8;
+}
+
+#home h1{
+    font-size: 18px;
+	color: #333;
+	margin: 0 0 10px 0;
+	text-decoration: underline;
+}
+
+
+#carousel {
+	width:500px;
+	height:70px;
+    padding: 0 0 20px 0;	
+	margin:0 0 0 200px;
+	position: relative;
+	top: -30px;
+}
+
+#slides {
+	overflow:hidden;
+	position:relative;
+	width:440px;
+	height:70px;
+}
+
+#slides ul {
+	position:relative;
+	left:0;
+	top:0;
+	list-style:none;
+	margin:0;
+	padding:0;	
+}
+
+
+#slides li {
+	width:100px;
+	height:70px;	
+	float:left;
+	margin:0 5px 0 5px;
+}
+
+#slides li img {
+}
+
+#flechesNav {
+	padding:0 0 5px 0;	
+}
+
+#flechesNav a {
+	display:block; 
+	width:50px; 
+	height:50px;
+	text-indent:-999em;
+	float:left;
+	outline:0;
+	z-index: 100;
+}
+
+a#prev {
+	background:url(../images/arrows.PNG) 25px 10px no-repeat;
+    position: absolute;
+	left: -60px;
+	top: 50px;
+}
+
+a#next {
+	background:url(../images/arrows.PNG) -25px 10px no-repeat; 
+    position: absolute;
+	left: 450px;
+	top: 50px;
+}
+
+.clear {clear:both}
+
+
+#home input.titlePicture{
+    width: 300px;
+	height: 20px;
+	padding: 5px 10px 5px 10px;
+	margin: 5px 0 10px 15px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid #ddd;
+	background: #fdfdfd; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#f5f5f5, #fff);
+	background: -o-linear-gradient(#f5f5f5, #fff);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f5f5f5), to(#fff)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#f5f5f5, #fff);
+}
+#home button.upload{
+    width: 150px;
+	font-size: 18px;
+	color: #fff;
+	padding: 5px 10px 5px 10px;
+	margin: 5px 0 10px 15px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid #ddd;
+	background: #555; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#333, #666);
+	background: -o-linear-gradient(#333, #666);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333), to(#666)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#333, #666);
+	cursor: pointer;
+}
+#home button.upload:hover{
+	background: #444; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#666, #333);
+	background: -o-linear-gradient(#666, #333);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666), to(#333)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#666, #333);
+}

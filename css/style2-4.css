@@ -1,0 +1,172 @@
+#container4{
+    width: 900px;
+	margin: auto;
+	font-family: Amaranth;
+}
+.container4{
+    float: left;
+    width: 405px;
+	min-height: 300px;
+	padding: 5px 0 5px 30px;
+	background: #f9f9f9; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#fff, #eee);
+	background: -o-linear-gradient(#fff, #eee);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#fff, #eee);
+	font-size: 18px;
+	color: #666;
+	font-family: Amaranth;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.container4 ul{
+    list-style: none;
+    margin: 10px 0 0 30px;
+}
+.container4 ul li{
+    line-height: 25px;
+}
+#standard{
+	margin: 0 30px 0 0;
+	padding : 5px;
+}
+#customize ul {
+    margin: 0;
+}
+#container4 h1{
+    font-size: 18px;
+	color: #333;
+	text-align: center;
+	margin: 0 0 25px 0;
+}
+#container4 #customize ul li {
+    width: 370px;
+	height: 30px;
+	margin: 0 0 10px 0;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid #ddd;
+	background: #fdfdfd; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#f5f5f5, #fff);
+	background: -o-linear-gradient(#f5f5f5, #fff);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f5f5f5), to(#fff)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#f5f5f5, #fff);
+    position: relative;
+}
+#container4 #customize ul.pages li:hover, 
+#container4 #customize ul.pages li.focus  {  
+  border: 1px solid #999; 
+}
+#container4 #customize ul.pages li:hover button, 
+#container4 #customize ul.pages li.focus button {  
+  display : inline; 
+}
+
+#container4 #customize ul li #customizeButton, #customizeButton1, #customizeButton2,
+#customizeButton5, #customizeButton4, #customizeButton3,
+#customizeButton6{
+    background: none;
+	display: none;
+	cursor: pointer;
+}
+
+#container4 #customize ul li.focus #customizeButton{
+    background: none;
+	display: inline;
+	cursor: pointer;
+	float : left;
+}
+
+#container4 #customize ul li input{
+    background: rgba(250, 250, 250, 0);
+    padding: 5px;
+	font-size: 18px;
+	height: 20px;
+	left: 30px;
+	width: 140px;
+	color:#666;
+	position: absolute;
+	line-height: 20px;
+	z-index : 9999;
+}
+#container4 #customize ul li #tools{
+    margin: 0 0 0 120px;
+    width: 190px;
+}
+.customizeTools{
+    float: right;
+}
+#container4 #customize ul li #tools .borderNone{
+    margin: 0 0 0 -15px;
+}
+#tt-wrapper{
+	padding: 0;
+	width: 300px;
+	list-style: none;
+	font-size: 12px;
+	height: 30px;
+	top: 10px;
+    position: relative;
+}
+#tt-left, #tt-right, #tt-up, #tt-down, #tt-plus, #tt-corbeille{
+	background: url(../images/tootip.png) no-repeat;
+	padding: 3px;
+	width: 144px;
+	height: 24px;
+	text-align: center;
+	border-radius: 2px;
+	position: absolute;
+	display: none;
+}
+
+#tt-left{
+	margin: 0 0 0 90px;
+}
+#tt-right{
+	margin: 0 0 0 105px;
+}
+#tt-up{
+	margin: 0 0 0 138px;
+}
+#tt-down{
+	margin: 0 0 0 155px;
+}
+#tt-plus{
+	margin: 0 0 0 190px;
+}
+#tt-corbeille{
+	margin: 0 0 0 225px;
+}
+.choosen{
+
+    border: 3px solid #6699cc;
+
+}
+#newPage{
+    cursor: pointer;
+	background: #6bbde2; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#6bbde2, #4a8fae);
+	background: -o-linear-gradient(#6bbde2, #4a8fae);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6bbde2), to(#4a8fae)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#6bbde2, #4a8fae);
+	padding: 3px 30px 3px 30px;
+	float: right;
+	margin: 0 35px 0 0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+    color: #fff;
+	font-family: Amaranth;
+}
+#newPage:hover{
+	background: #fdfdfd; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#ccc, #999);
+	background: -o-linear-gradient(#ccc, #999);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), to(#999)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#ccc, #999);
+}

@@ -1,0 +1,115 @@
+#lastStep{
+    width: 900px;
+	margin: auto;
+}
+#lastStep input[type="text"]{
+	display: block;
+    width: 200px;
+	height: 15px;
+	padding: 5px 10px 5px 10px;
+	margin: 5px 0 10px 100px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid #ddd;
+	background: #fdfdfd; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#f5f5f5, #fff);
+	background: -o-linear-gradient(#f5f5f5, #fff);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f5f5f5), to(#fff)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#f5f5f5, #fff);
+}
+#lastStep input[type="checkbox"]{
+	margin: 5px 0 10px 20px;
+}
+
+#informations{
+    width: 400px;
+	padding: 20px;
+	background: -moz-linear-gradient(#fff , #f5f5f5);
+	background: -o-linear-gradient(#fff, #f5f5f);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#f5f5f)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#fff, #f5f5f5);
+	margin: 0 30px 0 0;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.costInfo{
+    float: left;
+}
+
+#costPay{
+    width: 420px;
+	color: #666;
+}
+#cost{
+    width: 380px;
+    padding: 20px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 0 0 25px 0;
+	background: -moz-linear-gradient(#fff , #f5f5f5);
+	background: -o-linear-gradient(#fff, #f5f5f);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#f5f5f)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#fff, #f5f5f5);
+}
+#payNow{
+    width: 380px;
+    padding: 20px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 7px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 7px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 7px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 0 0 25px 0;
+	background: -moz-linear-gradient(#fff , #f5f5f5);
+	background: -o-linear-gradient(#fff, #f5f5f);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#f5f5f)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#fff, #f5f5f5);
+
+}
+.costInfo{
+    float: left;
+}
+#lastStep label{
+    float: left;
+	display: block;
+	font-size: 14px;
+	color: #333;
+	left: 0;
+	margin: 8px 0 0 0;
+}
+#lastStep h1{
+    font-size: 18px;
+	color: #333;
+	margin: 0 0 10px 0;
+}
+
+#lastStep h2{
+    font-size: 20px;
+	color: #006699;
+	margin: 0 0 10px 0;
+}
+#lastStep h3{
+    font-size: 16px;
+	color: #333;
+	margin: 0 0 10px 0;
+}
+#total{
+    font-size: 18px;
+	color: #006699;
+	float: right;
+}
+#total span{
+    font-size: 30px;
+	color: #006699;
+}

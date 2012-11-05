@@ -1,0 +1,17 @@
+#defaultview {
+	width : 100%;
+	clear : both;
+	min-height : 200px;
+}
+#defaultview .icon {
+	float : left;
+	margin-left : 10px;
+}
+#defaultview .icon img {
+	text-align : center;
+	border : 1px solid #ccc;
+	background-color : #EAEAEA;
+	vertical-align : center;
+	margin-top : auto;
+	padding : 20px;
+}

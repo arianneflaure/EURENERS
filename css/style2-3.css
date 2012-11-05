@@ -1,0 +1,181 @@
+#socialNetworks{
+    width: 950px;
+	margin: 0 0 0 28px;
+}
+#socialNetwork{
+	min-height: 150px;
+}
+#socialNet{
+    width: 435px;
+	height: 62px;
+	padding: 10px;
+    float: left;
+	background: url(../images/socialFond.png) no-repeat;
+}
+#socialNet p{
+	margin-left: 40px;
+    color: #333;
+	font-size: 18px;
+	line-height: 25px;
+}
+#socialNet .url{
+    color: #666;
+	font-size: 14px;
+}
+#socialNet input{
+    width: 226px;
+	height: 17px;
+    background: url(../images/inputSocial.png) no-repeat;
+	padding: 5px;
+}
+.socialWide{
+	width: 905px;
+	height: 115px;
+	padding: 10px;
+    margin: 25px 0 0 -8px;
+	background: url(../images/notSocialFond.png) no-repeat;
+}
+.socialWide p{
+	width: 600px;
+	color: #666;
+	font-size: 13px;
+}
+.socialBig{
+    color: #333;
+	font-size: 16px;
+	line-height: 25px;
+}
+.pack h4{
+	color: #666;
+	font-size: 13px;
+}
+.pack{
+    float: left;
+	width: 200px;
+	color:#333;
+	margin:5px 100px 0 50px;
+	font-size: 14px;
+}
+.pack input{
+	color: #fff;
+	font-size: 14px;
+	background: url(../images/iWantPackHover.png) no-repeat;
+	cursor: pointer;
+	clear: both;
+	font-family: Amaranth;
+	width: 130px;
+	height: 19px;
+	margin:5px 0 0 65px;
+}
+.pack input:hover, .pack input.active{
+	background: url(../images/iWantPack.png) no-repeat;
+}
+.socialmg{
+    float: left;
+}
+#accordion{
+    width: 400px;
+    font-size: 18px;
+	color:#333;
+	font-family: Amaranth;
+    border: 0;
+    background: none;
+	line-height: 18px;
+}
+#accordion div{
+    border: 0;
+    background: none;
+	width: 390px;
+}
+#accordion h3{
+    border: 0;
+    background: none;
+}
+#accordion a, a:hover, a:visited, a:focus{
+    font-size: 18px;
+	line-height: 18px;
+}
+#accordion li{
+    border-bottom: 1px solid #aaa;
+	width: 300px;
+}
+#accordion li.firstDomain{
+    border-top: 1px solid #aaa;
+}
+#accordion li button{
+    line-height: 30px;
+	background: none;
+	cursor: pointer;
+	clear: both;
+	padding: 0 5px 0 5px;
+	text-align: left;
+	width: 300px;
+	font-family: Amaranth;
+}
+.www{
+    color:#999;
+}
+#accordion li button:hover{
+	background: #d3f1fe;
+	color:#2669ac;
+}
+#accordion input[type="text"]{
+    width: 210px;
+	height: 20px;
+	padding: 5px;
+	line-height: 30px;	
+	background: url(../images/inputDomain.png) no-repeat;
+}
+#accordion input[type="submit"]{
+    width: 107px;
+	height: 30px;
+	cursor: pointer;
+	background: url(../images/domainButton.png) no-repeat;
+	line-height: 30px;
+	color: #fff;
+	font-family: Amaranth;
+}
+#domain.domain{
+    width: 325px;
+}
+#achatDomaine{
+    width: 325px;
+	height: 75px;
+	padding: 10px;
+	color: #666666;
+	font-size: 12px;
+	background: url(../images/achatDomainFond.png) no-repeat;
+}
+.bigger{
+	font-size: 14px;
+	color: #333;
+	line-height: 22px;
+}
+#besoinAide{
+    width: 325px;
+	height: 175px;
+	padding: 10px 10px 10px 20px;
+	background: url(../images/fondAide.png) no-repeat;
+	margin-top: 15px;
+	color: #333;
+	font-size: 14px;
+}
+#besoinAide ul{
+    list-style-type: disc;
+}
+#besoinAide ul li{
+    list-style-type: disc;
+	margin-top: 20px;
+	line-height: 14px;
+
+}
+#besoinAide ul li a, a:hover a:focus, a:visited{
+    text-decoration: underline;
+	line-height: 14px;
+	font-size: 14px;
+    color: #333;
+}
+.aide{
+    color:#006699;
+	font-size: 18px;	
+}
